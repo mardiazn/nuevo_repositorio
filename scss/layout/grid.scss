@@ -1,0 +1,39 @@
+.grid{
+    justify-items:center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    
+    .grid__image{
+        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+        margin: 5px;
+    }
+    .grid__icono{   
+        @include sizes(40%, auto);
+    }
+        
+    
+    
+    .grid__box{
+        align-self: center;
+
+    }        
+    
+    .grid__subtitulo{
+        @include fuentes(center, 30px, 700, $colorTexto);
+       
+    }
+
+    .grid__parrafo{
+        @include fuentes(justify, calc(1.275rem + .3vw), 500, $colorTexto);
+        margin: 10px;
+        padding-bottom: 1rem;
+    }
+
+
+    
+    
+}
+  
+    
+

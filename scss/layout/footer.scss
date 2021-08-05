@@ -1,0 +1,28 @@
+footer{
+    background-color: $colorFondoFooter;
+    margin: 0;
+   
+    .footer__datos{
+        @extend .padding;
+
+        .footer__parrafos{
+            @include fuentes (center, 1rem, 500, $colorTexto);
+            margin-bottom: 0.5rem;
+            line-height: 1.2; 
+        }
+
+
+    }
+    
+
+    .footer__boxContact{
+        background-color: $colorFondo;
+        padding: 10px;
+
+        .footer__icono{
+            @extend .grid__icono;
+            @include sizes(45px, 45px);
+        }
+    }
+
+}

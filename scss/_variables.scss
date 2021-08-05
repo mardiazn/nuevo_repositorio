@@ -1,0 +1,18 @@
+$colorTexto: rgb(35,35,78);
+$colorTextoClaro: floralwhite;
+$colorFondoClaro: white;
+$colorFondo: rgb(35,35,78);
+$colorFondoFooter:rgb(195, 195, 224);
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin fuentes($text-aling, $font-size, $font-weight, $color) {
+    text-align: $text-aling;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+

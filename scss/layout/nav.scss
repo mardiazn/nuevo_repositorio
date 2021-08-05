@@ -1,0 +1,10 @@
+nav{
+    .nav__titulo{
+     
+        font-weight: 900;
+
+        .nav__logo{
+            @include sizes(30px, auto);
+        }
+    }
+ }

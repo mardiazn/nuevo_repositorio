@@ -1,0 +1,26 @@
+@import "variables.scss";
+@import "layout/grid";
+@import "layout/header.scss";
+@import "layout/nav.scss";
+@import "layout/section.scss";
+@import "layout/footer.scss";
+@import "layout/form.scss";
+@import "layout/article.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'KoHo', sans-serif;
+    background-color: $colorFondoClaro;
+
+}
+
+
+.padding{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+

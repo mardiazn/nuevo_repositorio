@@ -1,0 +1,148 @@
+.grid {
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-top: 50px; }
+  .grid .grid__image {
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    margin: 5px; }
+  .grid .grid__icono, .grid footer .footer__boxContact .footer__icono, footer .footer__boxContact .grid .footer__icono {
+    height: auto;
+    width: 40%; }
+  .grid .grid__box {
+    align-self: center; }
+  .grid .grid__subtitulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #23234e; }
+  .grid .grid__parrafo {
+    text-align: justify;
+    font-size: calc(1.275rem + .3vw);
+    font-weight: 500;
+    color: #23234e;
+    margin: 10px;
+    padding-bottom: 1rem; }
+
+header {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  background-image: url("../images/estudio.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  background-color: #23234e;
+  text-align: center; }
+  header .header__subtitulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #23234e;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  header .header__titulo {
+    text-align: center;
+    font-size: 3.25rem;
+    font-weight: 600;
+    color: floralwhite;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  @media (min-width: 768px) {
+    header header {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem; }
+    header .header__subtitulo {
+      text-align: center;
+      font-size: 2.25rem;
+      font-weight: 600;
+      color: floralwhite;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem; }
+    header .header__titulo {
+      text-align: center;
+      font-size: 4.5rem;
+      font-weight: 700;
+      color: floralwhite;
+      line-height: 4.5rem;
+      margin-bottom: 4rem; } }
+
+nav .nav__titulo {
+  font-weight: 900; }
+  nav .nav__titulo .nav__logo {
+    height: auto;
+    width: 30px; }
+
+section .section__titulo, section .section__tituloform {
+  text-align: center;
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 900;
+  color: #23234e; }
+
+section .section__parrafo {
+  text-align: justify;
+  font-size: calc(1.3rem + .6vw);
+  font-weight: 500;
+  color: #23234e; }
+
+section .section__paginaEnConstruccion {
+  text-align: center;
+  font-size: calc(1.3rem + 3.6vw);
+  font-weight: 900;
+  color: #23234e; }
+
+footer {
+  background-color: #c3c3e0;
+  margin: 0; }
+  footer .footer__datos .footer__parrafos {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #23234e;
+    margin-bottom: 0.5rem;
+    line-height: 1.2; }
+  footer .footer__boxContact {
+    background-color: #23234e;
+    padding: 10px; }
+    footer .footer__boxContact .footer__icono {
+      height: 45px;
+      width: 45px; }
+
+section#contact {
+  background-color: #23234e; }
+
+.section__tituloform {
+  color: floralwhite !important; }
+
+section#contact form#contactForm .form-group {
+  margin-bottom: 1.5rem; }
+
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem; }
+
+section#contact form#contactForm .form-group input.form-control {
+  height: auto; }
+
+section#contact form#contactForm .form-group-textarea {
+  height: 100%; }
+
+section#contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'KoHo', sans-serif;
+  background-color: white; }
+
+.padding, section, footer .footer__datos, .section__tituloform, article {
+  padding-top: 2%;
+  padding-bottom: 2%; }

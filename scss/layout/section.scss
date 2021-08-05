@@ -1,0 +1,17 @@
+section{
+    @extend .padding;
+    
+
+    .section__titulo{
+        @include fuentes(center, calc(1.375rem + 1.5vw), 900, $colorTexto);
+
+    }
+    .section__parrafo{
+        @include fuentes(justify, calc(1.3rem + .6vw), 500, $colorTexto)
+    }
+
+    .section__paginaEnConstruccion{
+        @include fuentes(center, calc(1.3rem + 3.6vw), 900, $colorTexto)
+    }
+
+}
